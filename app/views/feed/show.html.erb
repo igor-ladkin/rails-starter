@@ -1,0 +1,86 @@
+<div class="w-full">
+  <div class="flex justify-between items-center">
+    <h1 class="font-bold text-3xl">Tech Hot Takes 🔥</h1>
+    <%= link_to "#" do %>
+      <button class="btn btn-primary ">+Post</button>
+    <% end %>
+  </div>
+
+  <!-- Can comment and react variant  -->
+  <div id="posts" class="min-w-full grid md:grid-cols-2 xl:grid-cols-3 gap-3">
+    <article id="content_post_176" class="card max-w-96 bg-base-100 shadow-xl">
+      <div class="card-body">
+        <h2 class="card-title">Photo booth echo poutine cronut chambray truffaut salvia.</h2>
+        <span class="text-sm text-gray-400 font-light">by: björn</span>
+
+        <p>Drinking skateboard aesthetic. Keytar lomo brunch keffiyeh wes anderson bicycle rights. Xoxo mustache celiac
+          yuccie typewriter. Banh mi hashtag typewriter hella food truck kogi selvage meggings. Chambray synth food
+          truck yolo taxidermy hashtag marfa.</p>
+
+        <section class="comments">
+          <h3 class="font-bold mb-2">Here is what people said recently:</h3>
+          <ul class="list-disc list-inside">
+            <li class="italic font-light text-sm">
+              Bespoke brooklyn pop-up pabst aesthetic fixie vhs.
+            </li>
+            <li class="italic font-light text-sm">
+              Craft beer offal health.
+            </li>
+          </ul>
+        </section>
+
+        <section class="reactions">
+          <div class="card-actions">
+            <button class="btn btn-outline btn-accent btn-circle btn-sm">🙁</button>
+            <button class="btn btn-outline btn-accent btn-circle btn-sm">😑</button>
+            <button class="btn btn-outline btn-accent btn-circle btn-sm">😀</button>
+
+            <button class="btn btn-link btn-sm ml-auto">+Comment</button>
+          </div>
+        </section>
+      </div>
+    </article>
+
+    <!-- Can neither comment nor react variant  -->
+    <article id="content_post_179" class="card max-w-96 bg-base-100 shadow-xl">
+      <div class="card-body">
+        <h2 class="card-title">Lomo mustache farm-to-table messenger bag deep v wes anderson.</h2>
+        <span class="text-sm text-gray-400 font-light">by: sasho</span>
+
+        <p>Organic neutra scenester beard portland tote bag. Banh mi organic narwhal wayfarers pop-up intelligentsia
+          blog. Forage fingerstache flannel neutra. Organic trust fund chambray kombucha.</p>
+
+        <section class="comments">
+          <h3 class="font-bold mb-2">Here is what people said recently:</h3>
+          <ul class="list-disc list-inside">
+            <li class="italic font-light text-sm">
+              Green juice shabby chic austin paleo.
+            </li>
+            <li class="italic font-light text-sm">
+              Kickstarter asymmetrical knausgaard butcher waistcoat bicycle rights.
+            </li>
+          </ul>
+        </section>
+
+        <section class="reactions">
+          <div class="card-actions">
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+              <div class="flex flex-col items-center">
+                🙁
+                <span class="countdown text-sm font-bold text-gray-400">1</span>
+              </div>
+              <div class="flex flex-col items-center">
+                😑
+                <span class="countdown text-sm font-bold text-gray-400">6</span>
+              </div>
+              <div class="flex flex-col items-center">
+                😀
+                <span class="countdown text-sm font-bold text-gray-400">3</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </article>
+  </div>
+</div>
