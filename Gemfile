@@ -53,6 +53,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 gem "ar_lazy_preload"
+gem "graphql"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -78,3 +79,4 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+gem "graphiql-rails", group: :development
